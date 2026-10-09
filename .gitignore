@@ -1,0 +1,8 @@
+# secrets and business data: never commit
+config.env
+keys/
+*.p8
+rclone/
+out/
+.deps/
+__pycache__/
