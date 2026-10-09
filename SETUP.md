@@ -58,7 +58,7 @@ The Saturday digest is already wired to read the folder. If the folder does not 
 
 ## Simplified path (no Google Drive)
 
-Set `ASC_SKIP_UPLOAD=1` in `config.env` and skip step 9. Files stay in `out/latest` on Oblivion, readable over SMB at `\Oblivionppdatasc-pull\out\latest`. One Admin key can do everything: set `ASC_KEY_ID`, `ASC_ISSUER_ID`, `ASC_KEY_FILE` instead of the three key blocks. The User Script can be created by writing `scripts/asc-pull-weekly/script` and a `schedule.json` entry on the flash share; press Apply on the User Scripts page afterwards.
+Set `ASC_SKIP_UPLOAD=1` in `config.env` and skip step 9. Files stay in `out/latest` on Oblivion, readable over SMB at `\\Oblivion\appdata\asc-pull\out\latest`. One Admin key can do everything: set `ASC_KEY_ID`, `ASC_ISSUER_ID`, `ASC_KEY_FILE` instead of the three key blocks. The User Script can be created by writing `scripts/asc-pull-weekly/script` and a `schedule.json` entry on the flash share; press Apply on the User Scripts page afterwards.
 
 ## Apple rate limits
 
